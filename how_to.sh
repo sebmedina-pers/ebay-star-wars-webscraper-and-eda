@@ -39,5 +39,5 @@ products.xpath('.//*[contains(@class, "s-item__shipping")]//text()').get()
 # dynamic ("Last one") // could add with error handling
 products.xpath('.//*[contains(@class, "s-item__dynamic")]//text()').get()
 
-# run spyder & save to .json or .csv
+# run spyder & save data to .json or .csv
 scrapy crawl starwars_ebay -O starwars_ebay.csv
