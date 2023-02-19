@@ -1,3 +1,4 @@
+.gitignore
 .DS_Store
 STAR-WARS-ENV/
 scrapy.cfg
